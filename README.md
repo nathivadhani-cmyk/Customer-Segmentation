@@ -52,6 +52,7 @@ Power BI Dashboard
 
 ## Dataset
 **The Main Dataset Were Uploaded in The Drive Link:** https://docs.google.com/spreadsheets/d/1wa7qTUZjjHJ7ES8J2TwVdqCakWqEDCT2/edit?usp=sharing&ouid=108227675483635770351&rtpof=true&sd=true
+
 The project uses a retail transaction dataset containing customer purchase information.
 
 * **Total Transactions:** 541,908
