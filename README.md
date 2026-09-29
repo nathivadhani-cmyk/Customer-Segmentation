@@ -4,7 +4,7 @@
 
 This project focuses on analyzing customer purchasing behavior and identifying meaningful customer segments using **RFM Analysis** and **K-Means Clustering**.
 
-RFM Analysis is used to measure customers based on **Recency, Frequency, and Monetary value**. These features are then standardized and used for clustering customers into different behavioral segments.
+RFM Analysis is used to measure customers based on **Recency, Frequency, and Monetary value**. These features are standardized and used for clustering customers into different behavioral segments.
 
 The final results are presented through an interactive **Power BI Dashboard** for better visualization and business understanding.
 
@@ -13,14 +13,14 @@ The final results are presented through an interactive **Power BI Dashboard** fo
 ## Objectives
 
 * Clean and preprocess the retail transaction dataset
-* Perform exploratory data analysis
+* Perform Exploratory Data Analysis (EDA)
 * Calculate customer-level **RFM metrics**
 * Analyze relationships between RFM features
-* Standardize the RFM features
+* Standardize RFM features
 * Determine the suitable number of clusters using the **Elbow Method**
 * Apply **K-Means Clustering**
 * Identify meaningful customer segments
-* Visualize the final results using **Power BI**
+* Visualize the results using **Power BI**
 
 ---
 
@@ -51,9 +51,11 @@ Power BI Dashboard
 ---
 
 ## Dataset
-**The Main Dataset Were Uploaded in The Drive Link:** https://docs.google.com/spreadsheets/d/1wa7qTUZjjHJ7ES8J2TwVdqCakWqEDCT2/edit?usp=sharing&ouid=108227675483635770351&rtpof=true&sd=true
 
 The project uses a retail transaction dataset containing customer purchase information.
+
+**Main Dataset:**
+[View Dataset](https://docs.google.com/spreadsheets/d/1wa7qTUZjjHJ7ES8J2TwVdqCakWqEDCT2/edit?usp=sharing&ouid=108227675483635770351&rtpof=true&sd=true&utm_source=chatgpt.com)
 
 * **Total Transactions:** 541,908
 * **Final Customers:** 2,997
@@ -122,21 +124,21 @@ The dashboard provides insights into:
 * Customer personas
 * Key business insights
 
+### Dashboard Demo
+
+[Watch Dashboard Video](https://drive.google.com/file/d/1IoJtdjKxdgwD6mjTm6qOSwlhsLWwnsC4/view?usp=drive_link&utm_source=chatgpt.com)
+
 ---
 
 ## Technologies Used
 
-**Python**
-Pandas • NumPy • Matplotlib • Seaborn • Scikit-learn
+**Programming:** Python, Pandas, NumPy
 
-**Machine Learning**
-K-Means Clustering • StandardScaler • Elbow Method
+**Data Visualization:** Matplotlib, Seaborn, Power BI
 
-**Visualization**
-Power BI • Python Visualization Libraries
+**Machine Learning:** Scikit-learn, K-Means Clustering, StandardScaler, Elbow Method
 
-**Environment**
-Jupyter Notebook / Google Colab
+**Environment:** Jupyter Notebook / Google Colab
 
 ---
 
@@ -167,9 +169,9 @@ Customer-Segmentation/
 
 ## Key Result
 
-The project successfully transforms raw transaction data into **customer-level RFM insights and four customer segments** using K-Means Clustering.
+The project transforms raw transaction data into **customer-level RFM insights and four customer segments** using K-Means Clustering.
 
-The segmented results are further presented through a **Power BI Dashboard**, providing an interactive view of customer behavior and segment characteristics.
+The segmented results are presented through an interactive **Power BI Dashboard**, providing a clear view of customer behavior and segment characteristics.
 
 ---
 
